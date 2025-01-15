@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Web Design Mastery | Movies.go</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">Movies.go</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Series</a></li>
+        <li><a href="#product">Genre</a></li>
+        <li><a href="#contact">New Releases</a></li>
+      </ul>
+      <div class="nav__search" id="nav-search">
+        <input type="text" placeholder="Search" />
+        <span><i class="ri-search-2-line"></i></span>
+      </div>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="asset/all movirs.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Movies Online Free</h1>
+          <p>
+            New Releases, HD prints, And your favorite comfort movies at your finger tips.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container deals__container">
+      <div class="deals__card">
+        <h2 class="section__header">Watch The Latest Movies</h2>
+        <p>Free torrent files availible.</p>
+      </div>
+      <div class="deals__card">
+        <span><i class="ri-cash-line"></i></span>
+        <h4>Over 600k Movies And Series</h4>
+        <p>Watch all your favorites</p>
+      </div>
+      <div class="deals__card">
+        <span><i class="ri-calendar-schedule-line"></i></span>
+        <h4>Free Access</h4>
+        <p>
+          Take advantage of our free movies with zero hidden charges
+        </p>
+      </div>
+      <div class="deals__card">
+        <span><i class="ri-money-rupee-circle-line"></i></span>
+        <h4>Save money</h4>
+        <p>
+          Start Your BINGE journey today.
+        </p>
+      </div>
+    </section>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__header">
+        <div>
+          <h2 class="section__header">About us</h2>
+          <p class="section__description">
+            Explore the magic of cinema with our movie site! Discover the latest releases, 
+            timeless classics, and everything in between. Dive into detailed reviews,
+            trailers, and curated recommendations to find your next favorite film.
+
+          </p>
+        </div>
+        <button class="about__btn">Search Movies</button>
+      </div>
+      <div class="about__content">
+        <div class="about__image">
+          <img src="asset/Screenshot 2025-01-14 110136.png" alt="about" />
+        </div>
+        <div class="about__grid">
+          <div class="about__card">
+            <h3>1.</h3>
+            <h4>Watch now</h4>
+            <p>
+              Dore And The Lost City Of Gold
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>2.</h3>
+            <h4>Watch Now</h4>
+            <p>
+             Black Panther
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>3.</h3>
+            <h4>Watch Now</h4>
+            <p>Powerpuff Girls (All Seasons)</p>
+          </div>
+          <div class="about__card">
+            <h3>4.</h3>
+            <h4>Watch Now</h4>
+            <p>
+              Horror Stories (2013)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container product__container" id="product">
+      <h2 class="section__header">All Movies-</h2>
+      <div class="product__grid">
+        <div class="product__card">
+          <h4>Cruella</h4>
+          <p>$9.99</p>
+          <img src="asset/cruella.jpg" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>IT</h4>
+          <p>$9.00</p>
+          <img src="asset/IT.jpg" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>Monster House</h4>
+          <p>$0.00</p>
+          <img src="asset/monstser house.jpg" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>Mean Girls</h4>
+          <p>$15.00</p>
+          <img src="asset/mean girls.png" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>Ouija: Orjin Of Evil</h4>
+          <p>$0.00</p>
+          <img src="asset/ouija.jpg" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>Spy</h4>
+          <p>$0.00</p>
+          <img src="asset/Spy.jpg" alt="product" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container">
+      <div class="client__content">
+        <h2 class="section__header">Watch The Entire Harry Potter</h2>
+        <p class="section__description">
+          There are eight Harry Potter movies, based on the seven books in the series. 
+          The final book, Harry Potter and the Deathly Hallows, was split into two films
+        </p>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="asset/hARRY POTTER.jpg" alt="poster"/>
+                <div>
+                  <p>
+                    The Harry Potter series follows the journey of a young wizard, 
+                    Harry Potter, as he discovers his magical heritage and 
+                    attends Hogwarts School of Witchcraft and Wizardry.
+                    Alongside his friends Hermione Granger and Ron Weasley, 
+                    Harry faces thrilling adventures, uncovers hidden truths
+                    about his past, and battles the dark wizard Lord Voldemort,
+                    who seeks to conquer the wizarding world. Filled with themes of 
+                    friendship, bravery, and the fight between good and evil, the series spans 
+                    seven books (and eight films), capturing the imagination of readers and viewers worldwide.
+                  </p>
+                  <h4>Author</h4>
+                  <h5>J.K Rowling</h5>
+                </div>
+              </div>
+            </div>
+            
+            
+                  
+                </div>
+              </div>
+            
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Movies.go</a>
+          </div>
+          <p>
+           Watch movies online free.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-pinterest-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul class="footer__links">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <ul class="footer__links">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul class="footer__links">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Cancelation Policy</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Movies. All rights reserved.
+      </div>
+    </footer>
+
+<!-- Login/Signup Section -->
+<div id="auth-buttons">
+  <!-- Signup Button -->
+  <button id="signup-btn" class="auth-btn">Signup</button>
+  
+  <!-- Login Button -->
+  <button id="login-btn" class="auth-btn">Login</button>
+</div>
+
+<!-- Signup Modal Structure -->
+<div id="signup-modal" class="auth-modal">
+  <div class="auth-modal-content">
+    <span class="close-modal" id="close-signup-modal">&times;</span>
+    <form id="signup-form">
+      <h2>Signup</h2>
+
+      <!-- First Name -->
+      <input type="text" id="first-name" placeholder="First Name" required />
+
+      <!-- Last Name -->
+      <input type="text" id="last-name" placeholder="Last Name" required />
+
+      <!-- Age -->
+      <input type="number" id="age" placeholder="Age" min="1" required />
+
+      <!-- Username or Email -->
+      <input type="text" id="signup-username" placeholder="Username or Email" required />
+
+      <!-- Password Field -->
+      <input type="password" id="signup-password" placeholder="Password" required />
+
+      <!-- Remember Me and Forgot Password -->
+      <div class="auth-options">
+        <label>
+          <input type="checkbox" id="remember-me" /> Remember Me
+        </label>
+        <a href="#" id="forgot-password">Forgot Password?</a>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" id="signup-submit-btn">Submit</button>
+    </form>
+  </div>
+</div>
+
+<!-- Login Modal Structure -->
+<div id="login-modal" class="auth-modal">
+  <div class="auth-modal-content">
+    <span class="close-modal" id="close-login-modal">&times;</span>
+    <form id="login-form">
+      <h2>Login</h2>
+
+      <!-- Username or Email -->
+      <input type="text" id="login-email" placeholder="Username or Email" required />
+
+      <!-- Password Field -->
+      <input type="password" id="login-password" placeholder="Password" required />
+
+      <!-- Remember Me and Forgot Password -->
+      <div class="auth-options">
+        <label>
+          <input type="checkbox" id="remember-me" /> Remember Me
+        </label>
+        <a href="#" id="forgot-password">Forgot Password?</a>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" id="login-submit-btn">Submit</button>
+    </form>
+  </div>
+</div>
+
+<script>
+  // Get modal elements
+const signupModal = document.getElementById('signup-modal');
+const loginModal = document.getElementById('login-modal');
+const signupBtn = document.getElementById('signup-btn');
+const loginBtn = document.getElementById('login-btn');
+const closeSignupModal = document.getElementById('close-signup-modal');
+const closeLoginModal = document.getElementById('close-login-modal');
+const signupForm = document.getElementById('signup-form');
+const loginForm = document.getElementById('login-form');
+
+// Open Signup Modal
+signupBtn.onclick = function() {
+  signupModal.style.display = 'block';
+}
+
+// Open Login Modal
+loginBtn.onclick = function() {
+  loginModal.style.display = 'block';
+}
+
+// Close Signup Modal
+closeSignupModal.onclick = function() {
+  signupModal.style.display = 'none';
+}
+
+// Close Login Modal
+closeLoginModal.onclick = function() {
+  loginModal.style.display = 'none';
+}
+
+// Close modals if clicked outside
+window.onclick = function(event) {
+  if (event.target === signupModal) {
+    signupModal.style.display = 'none';
+  }
+  if (event.target === loginModal) {
+    loginModal.style.display = 'none';
+  }
+}
+
+// Signup form submission (example using Fetch API)
+signupForm.onsubmit = async function (event) {
+  event.preventDefault();
+
+  // Get input values
+  const email = document.getElementById('signup-username').value; // Corrected field
+  const password = document.getElementById('signup-password').value;
+  const firstName = document.getElementById('first-name').value;
+  const lastName = document.getElementById('last-name').value;
+  const age = document.getElementById('age').value;
+
+  try {
+    // Make API call
+    const response = await fetch('http://localhost:3000/api/user/signup', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({firstName, lastName, age, email, password}),
+    });
+
+    const data = await response.json();
+
+    // Handle response
+    if (response.ok) {
+      alert('Signup successful!');
+      signupModal.style.display = 'none'; // Close modal
+    } else {
+      alert('Error: ' + (data.message || 'Unknown error'));
+    }
+  } catch (error) {
+    console.error('Error during signup:', error);
+    alert('Signup failed. Please try again later.');
+  }
+};
+
+
+// Login form submission (example using Fetch API)
+loginForm.onsubmit = async function(event) {
+  event.preventDefault();
+  const email = document.getElementById('login-email').value;
+  const password = document.getElementById('login-password').value;
+
+  try {
+    const response = await fetch('http://localhost:3000/api/user/login', 
+      {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ email, password }),
+    });
+
+    const data = await response.json();
+
+    if (response.ok) {
+      alert('Login successful!');
+      loginModal.style.display = 'none'; // Close modal
+    } else {
+      alert('Error: ' + (data.message || 'Unknown error'));
+    }
+  } catch (error) {
+    console.error('Error during login:', error);
+    alert('Login failed. Please try again later.');
+  }
+};
+
+
+</script>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
